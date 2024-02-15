@@ -5,13 +5,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+
 @RestController
 @SpringBootApplication
 public class HelloGitProjectApplication {
 
-    @GetMapping("/hello1")
+    @GetMapping("/hi")
     public String hello() {
-        return "Hello, all!";
+        return "Hello, Team!";
     }
 
     public static void main(String[] args) {
